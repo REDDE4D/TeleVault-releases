@@ -29,7 +29,28 @@ Download the latest version for your platform from the [Releases page](https://g
 | macOS (Intel) | `.dmg` (x86_64) |
 | Linux | `.deb` or `.AppImage` |
 
+### macOS — "app is damaged" warning
+
+Since the app is not signed with an Apple Developer certificate, macOS will block it. After installing, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
 ## Changelog
+
+### v1.0.0-alpha.2 (2026-03-12)
+
+## What's Changed
+
+- Update ci,tooling
+
+**Full Changelog**: v1.0.0-alpha.1...v1.0.0-alpha.2
+
+
+---
 
 ### v1.0.0-alpha.1 (2026-03-12)
 
