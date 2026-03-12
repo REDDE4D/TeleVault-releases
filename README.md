@@ -1,3 +1,54 @@
-# TeleVault Releases
+# TeleVault
 
-Release artifacts for TeleVault.
+**Secure Telegram Account Manager** — A cross-platform desktop app for managing multiple Telegram accounts with military-grade encryption.
+
+[![Latest Release](https://img.shields.io/github/v/release/REDDE4D/TeleVault-releases?style=flat-square)](https://github.com/REDDE4D/TeleVault-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/REDDE4D/TeleVault-releases/total?style=flat-square)](https://github.com/REDDE4D/TeleVault-releases/releases)
+
+## Features
+
+- **Multi-Account Management** — Add, organize, and monitor multiple Telegram accounts
+- **AES-256-GCM Encryption** — Sessions and sensitive data encrypted at rest
+- **Health Checking** — Verify account status and connectivity
+- **Code Extraction** — Extract login codes from Telegram service messages
+- **Spam Status Check** — Check if accounts are restricted via @SpamBot
+- **Groups & Tags** — Organize accounts with custom groups
+- **Proxy Support** — SOCKS5/HTTP proxy per account
+- **Import/Export** — CSV, database, and encrypted backup support
+- **Cross-Platform** — Windows, macOS (Intel & Apple Silicon), Linux
+- **Auto-Updates** — Built-in update checker
+
+## Download
+
+Download the latest version for your platform from the [Releases page](https://github.com/REDDE4D/TeleVault-releases/releases/latest).
+
+| Platform | File |
+|----------|------|
+| Windows | `.msi` or `.exe` |
+| macOS (Apple Silicon) | `.dmg` (aarch64) |
+| macOS (Intel) | `.dmg` (x86_64) |
+| Linux | `.deb` or `.AppImage` |
+
+## Changelog
+
+### v1.0.0-alpha.1 (2026-03-12)
+
+## What's Changed
+
+- Update ci
+- Update release.yml
+- Update release.yml
+- Add changelog UI, backend and release automation
+- Enable vendored OpenSSL for Telegram deps
+- Enable rustls, update deps & build workflow
+- Update release workflow and Tauri build commands
+- Set projectPath and fix Tauri frontend paths
+- Update release.yml
+
+**Full Changelog**: v1.0.0...v1.0.0-alpha.1
+
+
+
+---
+
+Built with [Tauri v2](https://v2.tauri.app) + React + Rust
