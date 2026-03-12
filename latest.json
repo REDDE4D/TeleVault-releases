@@ -1,1 +1,15 @@
-{}
+{
+  "version": "1.0.0-alpha.4",
+  "notes": "",
+  "pub_date": "2026-03-12T21:34:37.295Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWnkwNDF1UUVPazliNTFqSmlFNG9TdDdmaVlJYXZsQnhqdWJNWW9qUWtqU09TeEprQllTWWhrV1FFNTlOWlVwWVVRd3Z3M0pBdTZtTXJuWE5IOWNVVlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMzUxMjczCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKcHFOVkFlVG5lVzRzNzdMWUtNWVVkbkpyb2JzMmE1aXlxOWJCU0lkbEk3VmhIeVdsL2xnTVZ0YllpK1g1eE5HVVZOTXQxLzUrNUNpMDNmWDV5MytXQlE9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-alpha.4/TeleVault_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWnkwNDF1UUVPazliNTFqSmlFNG9TdDdmaVlJYXZsQnhqdWJNWW9qUWtqU09TeEprQllTWWhrV1FFNTlOWlVwWVVRd3Z3M0pBdTZtTXJuWE5IOWNVVlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMzUxMjczCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKcHFOVkFlVG5lVzRzNzdMWUtNWVVkbkpyb2JzMmE1aXlxOWJCU0lkbEk3VmhIeVdsL2xnTVZ0YllpK1g1eE5HVVZOTXQxLzUrNUNpMDNmWDV5MytXQlE9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-alpha.4/TeleVault_aarch64.app.tar.gz"
+    }
+  }
+}
