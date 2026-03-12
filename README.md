@@ -41,6 +41,32 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-alpha.4 (2026-03-12)
+
+## What's Changed
+
+- chore: bump version to 1.0.0-alpha.4
+- Refactor release asset download and update versioning in deployment script
+
+**Full Changelog**: v1.0.0-alpha.3...v1.0.0-alpha.4
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.3 (2026-03-12)
 
 ## What's Changed
