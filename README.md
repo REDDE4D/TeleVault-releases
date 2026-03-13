@@ -67,6 +67,32 @@ Then open the app normally.
 
 ---
 
+### v1.0.0-alpha.10 (2026-03-13)
+
+## What's Changed
+
+- chore: bump version to 1.0.0-alpha.10
+- feat(sync): implement cloud sync functionality
+
+**Full Changelog**: v1.0.0-alpha.9...v1.0.0-alpha.10
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.8 (2026-03-12)
 
 ## What's Changed
