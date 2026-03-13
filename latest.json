@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0-alpha.12",
+  "version": "1.0.0-alpha.13",
   "notes": "",
-  "pub_date": "2026-03-13T17:07:29.357Z",
+  "pub_date": "2026-03-13T18:42:10.105Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjVicEZ4aW5FVzJpT0FqTittNk9jSmVQTGsxTnJqelhSTnhoMjhzWllFenFVYkpRUnJ5RzU5dzczenFSTjF1WklqRjU5a3ViR3JjdjlJRlgxQzV4WEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDIxNjQ2CWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKc2d4R3hRa1h4YnVGRGF2cjZSTHN2SG1FUlZaOTFDVXZjQ3l6d2lqUWJ6ZUxDcmk4NE5SdWgyais3ZDduWTFoRndNMzZaNTNza2w2OXlNVFRpQkZ4QUE9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-alpha.12/TeleVault_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjdQb0Vlc0FkcTA0OU82dEpNNms1ZjZHSjYxYldLTXZQVlN4azIydUhkWmI1dWgveW9uYitBTm11cTdxQ244OWNpSXkySmNuSFluSkRoVHl6Mk9KSndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDI3MzI2CWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKRUlOOU1MT3d0UUphVWRIek9oVzNMbFdlN3kzT0NsakR5Z2UzTVgwcDNXaGNRYmxyMzYvZnFvZjZvNmxmVjAxMS9JRHR5eXNNSGtNQy8zNFp1TjRuQ0E9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-alpha.13/TeleVault_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjVicEZ4aW5FVzJpT0FqTittNk9jSmVQTGsxTnJqelhSTnhoMjhzWllFenFVYkpRUnJ5RzU5dzczenFSTjF1WklqRjU5a3ViR3JjdjlJRlgxQzV4WEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDIxNjQ2CWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKc2d4R3hRa1h4YnVGRGF2cjZSTHN2SG1FUlZaOTFDVXZjQ3l6d2lqUWJ6ZUxDcmk4NE5SdWgyais3ZDduWTFoRndNMzZaNTNza2w2OXlNVFRpQkZ4QUE9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-alpha.12/TeleVault_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjdQb0Vlc0FkcTA0OU82dEpNNms1ZjZHSjYxYldLTXZQVlN4azIydUhkWmI1dWgveW9uYitBTm11cTdxQ244OWNpSXkySmNuSFluSkRoVHl6Mk9KSndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDI3MzI2CWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKRUlOOU1MT3d0UUphVWRIek9oVzNMbFdlN3kzT0NsakR5Z2UzTVgwcDNXaGNRYmxyMzYvZnFvZjZvNmxmVjAxMS9JRHR5eXNNSGtNQy8zNFp1TjRuQ0E9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-alpha.13/TeleVault_aarch64.app.tar.gz"
     }
   }
 }
