@@ -41,6 +41,32 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-alpha.13.3 (2026-03-13)
+
+## What's Changed
+
+- chore: bump version to 1.0.0-alpha.13.3
+- feat: add react-markdown for rendering changelog notes
+
+**Full Changelog**: v1.0.0-alpha.13.2...v1.0.0-alpha.13.3
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.13.2 (2026-03-13)
 
 ## What's Changed
@@ -232,32 +258,6 @@ Then open the app normally.
 - feat: enhance Toast component with copy functionality and error handling improvements
 
 **Full Changelog**: v1.0.0-alpha.6...v1.0.0-alpha.7
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.6 (2026-03-12)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.6
-- feat: update inactivity timeout handling and add tab navigation to SettingsPage
-
-**Full Changelog**: v1.0.0-alpha.5...v1.0.0-alpha.6
 
 ---
 
