@@ -41,6 +41,32 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-alpha.11 (2026-03-13)
+
+## What's Changed
+
+- chore: bump version to 1.0.0-alpha.11
+- Refactor database access and enhance error handling
+
+**Full Changelog**: v1.0.0-alpha.10...v1.0.0-alpha.11
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.9 (2026-03-12)
 
 ## What's Changed
@@ -255,25 +281,6 @@ Then open the app normally.
 - Update ci,tooling
 
 **Full Changelog**: v1.0.0-alpha.1...v1.0.0-alpha.2
-
-
----
-
-### v1.0.0-alpha.1 (2026-03-12)
-
-## What's Changed
-
-- Update ci
-- Update release.yml
-- Update release.yml
-- Add changelog UI, backend and release automation
-- Enable vendored OpenSSL for Telegram deps
-- Enable rustls, update deps & build workflow
-- Update release workflow and Tauri build commands
-- Set projectPath and fix Tauri frontend paths
-- Update release.yml
-
-**Full Changelog**: v1.0.0...v1.0.0-alpha.1
 
 
 
