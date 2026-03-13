@@ -41,6 +41,32 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-alpha.13.2 (2026-03-13)
+
+## What's Changed
+
+- chore: bump version to 1.0.0-alpha.13.2
+- feat: implement custom API credentials management and obfuscation
+
+**Full Changelog**: v1.0.0-alpha.13.1...v1.0.0-alpha.13.2
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.13 (2026-03-13)
 
 ## What's Changed
@@ -232,58 +258,6 @@ Then open the app normally.
 - feat: update inactivity timeout handling and add tab navigation to SettingsPage
 
 **Full Changelog**: v1.0.0-alpha.5...v1.0.0-alpha.6
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.5 (2026-03-12)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.5
-- feat: add UpdateBanner component for update notifications and integrate into MainLayout
-
-**Full Changelog**: v1.0.0-alpha.4...v1.0.0-alpha.5
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.4 (2026-03-12)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.4
-- Refactor release asset download and update versioning in deployment script
-
-**Full Changelog**: v1.0.0-alpha.3...v1.0.0-alpha.4
 
 ---
 
