@@ -41,6 +41,37 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-alpha.14 (2026-03-16)
+
+## New Features
+
+- Add Telegram group and bot creation features with dedicated dialogs for creating groups (with type and description options) and managing bot creation via BotFather
+
+## Internal
+
+- Enhance TelegramManager with methods for creating groups and channels, and resolving bot usernames
+- Update database schema to include new fields for account management
+- Integrate AI-generated release notes using Claude API in the release workflow
+
+**Full Changelog**: v1.0.0-alpha.13.3...v1.0.0-alpha.14
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.13.3 (2026-03-13)
 
 ## What's Changed
@@ -232,32 +263,6 @@ Then open the app normally.
 - feat: add context menu component and integrate into accounts page
 
 **Full Changelog**: v1.0.0-alpha.7...v1.0.0-alpha.8
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.7 (2026-03-12)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.7
-- feat: enhance Toast component with copy functionality and error handling improvements
-
-**Full Changelog**: v1.0.0-alpha.6...v1.0.0-alpha.7
 
 ---
 
