@@ -41,6 +41,35 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-alpha.15 (2026-03-16)
+
+## New Features
+
+- Add console commands and raw client connection for Telegram, enabling direct interaction with Telegram's console interface
+
+## Improvements
+
+- Enhance authentication tracking to record when two-factor authentication is required during login
+
+**Full Changelog**: v1.0.0-alpha.14...v1.0.0-alpha.15
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.14 (2026-03-16)
 
 ## New Features
@@ -237,32 +266,6 @@ Then open the app normally.
 - feat(sync): implement cloud sync functionality
 
 **Full Changelog**: v1.0.0-alpha.9...v1.0.0-alpha.10
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.8 (2026-03-12)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.8
-- feat: add context menu component and integrate into accounts page
-
-**Full Changelog**: v1.0.0-alpha.7...v1.0.0-alpha.8
 
 ---
 
