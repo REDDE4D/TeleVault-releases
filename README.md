@@ -41,6 +41,38 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.1 (2026-03-18)
+
+## New Features
+
+- Add account export functionality in CSV and JSON formats, excluding sensitive information
+- Enhance proxy management with update and test commands to modify settings and verify connectivity
+- Add 2FA status check for Telegram accounts
+- Introduce message caching in the database to store and retrieve messages with metadata
+
+## Improvements
+
+- Update security policies for media handling with enhanced Content Security Policy and asset protocol support
+
+**Full Changelog**: v1.0.0-alpha.15.1...v1.0.0-beta.1
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-alpha.15.1 (2026-03-16)
 
 ## New Features
