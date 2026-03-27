@@ -41,6 +41,37 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.2.1 (2026-03-27)
+
+## New Features
+
+- Add bulk function execution for running operations across multiple selected accounts
+- Add support for executing multiple NordVPN proxies at once with progress indication
+- Add SOCKS5 proxy support, allowing accounts to connect through assigned proxies
+
+## Improvements
+
+- Enhance the provider proxy dialog to display progress when adding multiple proxies
+
+**Full Changelog**: v1.0.0-beta.2.0...v1.0.0-beta.2.1
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.2.0 (2026-03-27)
 
 ## New Features
@@ -295,33 +326,6 @@ Then open the app normally.
 - feat: implement biometric authentication using keyring for secure credential storage
 
 **Full Changelog**: v1.0.0-alpha.12...v1.0.0-alpha.13
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.12 (2026-03-13)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.12
-- chore: implement changes
-- feat: update components
-
-**Full Changelog**: v1.0.0-alpha.11...v1.0.0-alpha.12
 
 ---
 
