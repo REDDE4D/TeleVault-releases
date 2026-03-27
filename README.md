@@ -41,6 +41,44 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.2.0 (2026-03-27)
+
+## New Features
+
+- Add PIN unlock feature with enable, disable, and unlock commands
+- Add session management commands to retrieve and terminate active sessions
+- Improve proxy testing to support authentication
+
+## Improvements
+
+- Enhance app status to include PIN-related states
+- Refactor Telegram operations for better session handling and reporting
+- Integrate PIN functionality with existing biometric unlock logic
+
+## Internal
+
+- Implement PIN validation, hashing, and encryption using PBKDF2
+- Update database models to store PIN configurations
+
+**Full Changelog**: v1.0.0-beta.1.1...v1.0.0-beta.2.0
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.1.1 (2026-03-18)
 
 ## New Features
@@ -284,32 +322,6 @@ Then open the app normally.
 - feat: update components
 
 **Full Changelog**: v1.0.0-alpha.11...v1.0.0-alpha.12
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.11 (2026-03-13)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.11
-- Refactor database access and enhance error handling
-
-**Full Changelog**: v1.0.0-alpha.10...v1.0.0-alpha.11
 
 ---
 
