@@ -41,6 +41,35 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.2.5 (2026-03-28)
+
+## New Features
+
+- Add new SQL commands for managing proxies in the database
+
+## Improvements
+
+- Enhance database schema to support improved data organization and management
+
+**Full Changelog**: v1.0.0-beta.2.4...v1.0.0-beta.2.5
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.2.4 (2026-03-28)
 
 ## Bug Fixes
@@ -238,35 +267,6 @@ Then open the app normally.
 - Add tag assignment in bulk action bar and account management interface
 
 **Full Changelog**: v1.0.0-alpha.15...v1.0.0-alpha.15.1
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.15 (2026-03-16)
-
-## New Features
-
-- Add console commands and raw client connection for Telegram, enabling direct interaction with Telegram's console interface
-
-## Improvements
-
-- Enhance authentication tracking to record when two-factor authentication is required during login
-
-**Full Changelog**: v1.0.0-alpha.14...v1.0.0-alpha.15
 
 ---
 
