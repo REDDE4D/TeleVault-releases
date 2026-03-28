@@ -41,6 +41,31 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.2.2 (2026-03-28)
+
+## New Features
+
+- Add frontend build process to release workflow
+
+**Full Changelog**: v1.0.0-beta.2.1...v1.0.0-beta.2.2
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.2.1 (2026-03-27)
 
 ## New Features
@@ -300,32 +325,6 @@ Then open the app normally.
 - feat: implement custom API credentials management and obfuscation
 
 **Full Changelog**: v1.0.0-alpha.13.1...v1.0.0-alpha.13.2
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.13 (2026-03-13)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.13
-- feat: implement biometric authentication using keyring for secure credential storage
-
-**Full Changelog**: v1.0.0-alpha.12...v1.0.0-alpha.13
 
 ---
 
