@@ -41,6 +41,31 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.2.4 (2026-03-28)
+
+## Bug Fixes
+
+- Fix unused imports in DeveloperTab component
+
+**Full Changelog**: v1.0.0-beta.2.3...v1.0.0-beta.2.4
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.2.2 (2026-03-28)
 
 ## New Features
@@ -242,89 +267,6 @@ Then open the app normally.
 - Enhance authentication tracking to record when two-factor authentication is required during login
 
 **Full Changelog**: v1.0.0-alpha.14...v1.0.0-alpha.15
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.14 (2026-03-16)
-
-## New Features
-
-- Add Telegram group and bot creation features with dedicated dialogs for creating groups (with type and description options) and managing bot creation via BotFather
-
-## Internal
-
-- Enhance TelegramManager with methods for creating groups and channels, and resolving bot usernames
-- Update database schema to include new fields for account management
-- Integrate AI-generated release notes using Claude API in the release workflow
-
-**Full Changelog**: v1.0.0-alpha.13.3...v1.0.0-alpha.14
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.13.3 (2026-03-13)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.13.3
-- feat: add react-markdown for rendering changelog notes
-
-**Full Changelog**: v1.0.0-alpha.13.2...v1.0.0-alpha.13.3
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-alpha.13.2 (2026-03-13)
-
-## What's Changed
-
-- chore: bump version to 1.0.0-alpha.13.2
-- feat: implement custom API credentials management and obfuscation
-
-**Full Changelog**: v1.0.0-alpha.13.1...v1.0.0-alpha.13.2
 
 ---
 
