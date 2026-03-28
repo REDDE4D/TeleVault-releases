@@ -1,51 +1,51 @@
 {
-  "version": "1.0.0-beta.2.1",
+  "version": "1.0.0-beta.2.2",
   "notes": "",
-  "pub_date": "2026-03-27T23:41:05.622Z",
+  "pub_date": "2026-03-28T08:51:56.207Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjdZTjFLOFh1MWI4S2RvUEZoYzMveWVmdFVlMWFoaEdDcGM5Rkw3N0JTSVpHSU5sTWpuN1J6dEw1L201WG50QjBxMU5uaEVHbGNtbmgvNktNd2dUWVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjUzODUwCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKSXJ4cWN2dTUvNmpWcmM0cDIxdTJ1QnptSGpXSzE1eDRVTmVMT0N1NGdGKytMRE4xVDhFZXF1RzRmUlE2QzNUdE5EbEFQei9UNHU4VTlJQTRWMmljRFE9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjQ5T05YcGFxOEVtZ0d1dFRSWmNzZ2psdUFUaytsQWtxYnhKMDhZbm9wZXRiQXVDdGxBQUNyelp2RW52MklPcnVHN1RZMXNBK2ltQlV1TUFBNHNKT0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg2NzA0CWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKbkphVStPdTlYenBTaUtKdnUrSjhnTU1WU3dWVEpTNit5THQ1dE9TakcxNTN3U2hXMC9Gd0VKK1RsbXRVeXM2a0UwVm9ydTdSUERxV2wvREtpR2UzQVE9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjdZTjFLOFh1MWI4S2RvUEZoYzMveWVmdFVlMWFoaEdDcGM5Rkw3N0JTSVpHSU5sTWpuN1J6dEw1L201WG50QjBxMU5uaEVHbGNtbmgvNktNd2dUWVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjUzODUwCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKSXJ4cWN2dTUvNmpWcmM0cDIxdTJ1QnptSGpXSzE1eDRVTmVMT0N1NGdGKytMRE4xVDhFZXF1RzRmUlE2QzNUdE5EbEFQei9UNHU4VTlJQTRWMmljRFE9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjQ5T05YcGFxOEVtZ0d1dFRSWmNzZ2psdUFUaytsQWtxYnhKMDhZbm9wZXRiQXVDdGxBQUNyelp2RW52MklPcnVHN1RZMXNBK2ltQlV1TUFBNHNKT0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg2NzA0CWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKbkphVStPdTlYenBTaUtKdnUrSjhnTU1WU3dWVEpTNit5THQ1dE9TakcxNTN3U2hXMC9Gd0VKK1RsbXRVeXM2a0UwVm9ydTdSUERxV2wvREtpR2UzQVE9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjJYUlFkZllVQ1M0aWlrUGQxOU9CM1ZNakhxVDNsMlBBMENHcDFsTWVmbFlINmswck9MbnlGWW5yb0p6Wkx1ZmtNb0dwOWM5aWxZNWNpc0hpb2pBaUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjUzOTExCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKM2xNdmNYQTQ5Ymx2Y0ZNck9EZEt0WFpFYWZNN0ZEWWYzeGVDK0l5c09DejRNZXFVdnFPN0cvbGNYek1TbHY1bHpnQWtINXFaV2Zvb2Z2TnRDWWhkQmc9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjV3UmxMV2VUOEFrYkdBNWptMk53aFBHY2kwUlBTbVFSS2hQZVBFWFcxeWl5bm00U2JtczVCbHZramxIZHBERWtvTHFINm83SVZwbytNMnVqQm4rSlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg2NzkyCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKb2dUa2YyQ1dtMXF6MzNPVjVqekhBTlFlSkt2THVoY29xUzBrTjEwbHZLTEpuRzljSWoydW4rWTRRTmxWK3ArSUtzRVZMNVQ5cUhwZEZ2VjhxYVlaQ2c9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_x64.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjJYUlFkZllVQ1M0aWlrUGQxOU9CM1ZNakhxVDNsMlBBMENHcDFsTWVmbFlINmswck9MbnlGWW5yb0p6Wkx1ZmtNb0dwOWM5aWxZNWNpc0hpb2pBaUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjUzOTExCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKM2xNdmNYQTQ5Ymx2Y0ZNck9EZEt0WFpFYWZNN0ZEWWYzeGVDK0l5c09DejRNZXFVdnFPN0cvbGNYek1TbHY1bHpnQWtINXFaV2Zvb2Z2TnRDWWhkQmc9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjV3UmxMV2VUOEFrYkdBNWptMk53aFBHY2kwUlBTbVFSS2hQZVBFWFcxeWl5bm00U2JtczVCbHZramxIZHBERWtvTHFINm83SVZwbytNMnVqQm4rSlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg2NzkyCWZpbGU6VGVsZVZhdWx0LmFwcC50YXIuZ3oKb2dUa2YyQ1dtMXF6MzNPVjVqekhBTlFlSkt2THVoY29xUzBrTjEwbHZLTEpuRzljSWoydW4rWTRRTmxWK3ArSUtzRVZMNVQ5cUhwZEZ2VjhxYVlaQ2c9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_x64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjVDVGNNdkVnSnhaY081NEcrbWJVWGpmRllpNnRFd2EzaXJmcWVSemxNZ0x2RWFNOE9OQTBVdWZyYXpnb2pVR1JQTkdvb3grS3dsdDlKTUlVVW5mbUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjU0MjA0CWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4xX2FtZDY0LkFwcEltYWdlCm1SbHh3aWFoUmZmTllSeHo3YkVnYkYrMkRPZ093aUZDdE5RKy9oeXJEUlo5alpoVjhrQmZTTXptc1BJenUrQlhBL0ZNeGVGaUN0Y1VGbWlJYUdtSkFRPT0K",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_1.0.0-beta.2.1_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjJ1a25GeFZVV0laUE45UWo5VFBlc0k0WEI1NWdvZkpJSFpsTWtUOHFpVXJ6RFFFcjJtbHFBNUpKdW5PeU5Tcno3Z3NUa0k0SjZlUTBHckxjaXQxYndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg3MDU3CWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4yX2FtZDY0LkFwcEltYWdlCndZZXJRTlJwNWY4VVJVZDgrTnIya3RwS2JaSk1YUXF2QWw1U0NpRmNJTC9VL2tldno1R2c3ZzJHS21nNnhpVXF3UkI0RFZvOFpRWE9ESVA2TlpheENRPT0K",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_1.0.0-beta.2.2_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjVDVGNNdkVnSnhaY081NEcrbWJVWGpmRllpNnRFd2EzaXJmcWVSemxNZ0x2RWFNOE9OQTBVdWZyYXpnb2pVR1JQTkdvb3grS3dsdDlKTUlVVW5mbUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjU0MjA0CWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4xX2FtZDY0LkFwcEltYWdlCm1SbHh3aWFoUmZmTllSeHo3YkVnYkYrMkRPZ093aUZDdE5RKy9oeXJEUlo5alpoVjhrQmZTTXptc1BJenUrQlhBL0ZNeGVGaUN0Y1VGbWlJYUdtSkFRPT0K",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_1.0.0-beta.2.1_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjJ1a25GeFZVV0laUE45UWo5VFBlc0k0WEI1NWdvZkpJSFpsTWtUOHFpVXJ6RFFFcjJtbHFBNUpKdW5PeU5Tcno3Z3NUa0k0SjZlUTBHckxjaXQxYndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg3MDU3CWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4yX2FtZDY0LkFwcEltYWdlCndZZXJRTlJwNWY4VVJVZDgrTnIya3RwS2JaSk1YUXF2QWw1U0NpRmNJTC9VL2tldno1R2c3ZzJHS21nNnhpVXF3UkI0RFZvOFpRWE9ESVA2TlpheENRPT0K",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_1.0.0-beta.2.2_amd64.AppImage"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWnh0QXkvaTcvLzkyZysrWGJVTlVHRUF3M2preTBqTTB6WW9LRVdmVmVIUTFRUkNCVnV4SVloRnluVE0wNXc0R3lCOFYwOUpDQnNnU3hnQ1ZaWTdOR1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjU0MjA0CWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4xX2FtZDY0LmRlYgo1KzN1bVZ2OFNYZlplbmxRQ0Z3YnBSa29zNS80YjJ6MXZ1OWtBMDNRcjV5T0EyMVBlbldRbGkxWDlVc2w4TWpYekJ4MzVGRDk2MnBpenpKZlRHZU9CZz09Cg==",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_1.0.0-beta.2.1_amd64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjMwL2dhcFR4WkdYeSt3bUpPYjhEWFN4aDZxTXZ3Ni92WjFYMmtQRkxaV3V6ekcvMks1UFJoTUlZSUdOdm9WTmZNZzdiL056WTFCcE9BV0pYN2FtTEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg3MDU3CWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4yX2FtZDY0LmRlYgpnQjNDWnJVWFA0OHFqWGJUbWoyL0VRNXRlVmlhUVA4QkI5RzcyR08zbFhBQW5zYWVndlYwU21DN1liL3UwMkt1L0o0blFPcmEvZUFGQTVETWl3NmNBUT09Cg==",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_1.0.0-beta.2.2_amd64.deb"
     },
     "linux-x86_64-rpm": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWno4UkQxUFUyZi9aSkZ1UDI4Tkw4RU5pL3pjSTFXc2pSVVVUZ2w1K1pLb1RnR1FLRzFDUEtSRWp4VzBHNmwya2ZSanY2bzBpdzUxU1ZWZTJ0T0o5SHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjU0MjA0CWZpbGU6VGVsZVZhdWx0LTEuMC4wLWJldGEuMi4xLTEueDg2XzY0LnJwbQpGeTFCZFdFUWd0SzlIMFhxZjYyK1NjUXJDYm96UWpoUzZtN0tLNno1VE9pcy9OK3VkRFgrcnpVYm9zT0lobFFFQ3JBeUJxZG92bHBoMldrTXN4VDlCUT09Cg==",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault-1.0.0-beta.2.1-1.x86_64.rpm"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjAyQThvc3YrY3VFblJFY1EwcFprQTdPVSs5NnZ2YUxUOTlkTHdvdFNqVTlIanlwTUNuUEF2Ylh5d3dpZ0U2aWhqVDE3NVN1ZmsrTXhFd3h5QkRLREFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg3MDU3CWZpbGU6VGVsZVZhdWx0LTEuMC4wLWJldGEuMi4yLTEueDg2XzY0LnJwbQovemVRQ294RkJ5RWt6WjRHZmsrN2FIcU1Cd3lURDk0b1c5amt5T0RUeCs2NTRnZk4vQndNYWNCbWhYQ1YxSlJWbzhMK0xCU01JZTdrVndWeVhWSXNBUT09Cg==",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault-1.0.0-beta.2.2-1.x86_64.rpm"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjA0VjV4Y2Q4Zm0rQzhRYWFPQWtLNk1hSlNhdHJITmpCZGk0Qis5UHEydlFKWk93K0xvbjlOSzJkZVk1Y0pDeXEyRlVyVUYzVzEvRHFCYWt5Kys2QndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjU0ODYyCWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4xX3g2NF9lbi1VUy5tc2kKY1NQQnFCRTBYL2o2VllZU09WZFFBVGZvNW5MMHFxa3dKYkVLa0JyalFYWE1HUlJNbnVsVFpRWm9JeCtsQW5WNzlIZGRERnQ0NVowL2IvandWYjdoQUE9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_1.0.0-beta.2.1_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjhBY3ZLczhCWTdjVmNPL2N2QUExbXJHcVNXMjJLaEc4bmZONVBiU2liWUFqSld1WGZ4SWVucXJ4OWZKenVxTVRGOWN2TmNHcmQ0dmtBUXpmUVI2OUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg3OTEzCWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4yX3g2NF9lbi1VUy5tc2kKZjJURHZmc2UyaitaSHQwbmhvMGJ3NkJSU0R3aTMrRFQwRkJZOVhPWXVEc0JFR1BEcGJFN3ovSU9reWErQ0ZpM3hRRWV5V0lZNmUwNDZuanY5aXdRQmc9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_1.0.0-beta.2.2_x64_en-US.msi"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjA0VjV4Y2Q4Zm0rQzhRYWFPQWtLNk1hSlNhdHJITmpCZGk0Qis5UHEydlFKWk93K0xvbjlOSzJkZVk1Y0pDeXEyRlVyVUYzVzEvRHFCYWt5Kys2QndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjU0ODYyCWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4xX3g2NF9lbi1VUy5tc2kKY1NQQnFCRTBYL2o2VllZU09WZFFBVGZvNW5MMHFxa3dKYkVLa0JyalFYWE1HUlJNbnVsVFpRWm9JeCtsQW5WNzlIZGRERnQ0NVowL2IvandWYjdoQUE9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_1.0.0-beta.2.1_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjhBY3ZLczhCWTdjVmNPL2N2QUExbXJHcVNXMjJLaEc4bmZONVBiU2liWUFqSld1WGZ4SWVucXJ4OWZKenVxTVRGOWN2TmNHcmQ0dmtBUXpmUVI2OUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg3OTEzCWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4yX3g2NF9lbi1VUy5tc2kKZjJURHZmc2UyaitaSHQwbmhvMGJ3NkJSU0R3aTMrRFQwRkJZOVhPWXVEc0JFR1BEcGJFN3ovSU9reWErQ0ZpM3hRRWV5V0lZNmUwNDZuanY5aXdRQmc9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_1.0.0-beta.2.2_x64_en-US.msi"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjZmTVRtOVVDRUZVbGdqVW5waFp6RWhBNVMvckh2QlNKRDllUDVRT0lGUGNQK0RKM1A2QzVIc05PaXpxcjhUVFZXY2d2Mm5JSTNSZ3F2VU00bHdQZHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NjU0ODYyCWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4xX3g2NC1zZXR1cC5leGUKY2cyaThoRStRcVpJb3liYWtqL093ejV3aHFtd2hKemUyalJKMENmUkhlYlVnbm03Z3pnZVlOSkJCQVdUQ3ZKZlp5NU1aR1FoRm5OUHNSc2tnb0tXRHc9PQo=",
-      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.1/TeleVault_1.0.0-beta.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRdExHeWlFWUNsWjF4UzkzWk5SK2xtbVVCeW1QT2Q2SWtBWWFxTm9DWThqcFVlTlhRZkJ4WUk3S3NTMW8xV3FtZmFuam5GZzVnOXVNNTNnZnhSdEY3TmFPRDN4eGZjOHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0Njg3OTEzCWZpbGU6VGVsZVZhdWx0XzEuMC4wLWJldGEuMi4yX3g2NC1zZXR1cC5leGUKRXZ4SkQ1V2E3VEtqWWdqUmpCT0t0Zmx1UFF2SWhKUjJqamsyVldvT1F5bEg5OGpNcm9mWVBUS1lqbW45WXNrcnU4YjZ4QWJGQ3ptYXhMU3BEU0Z6QkE9PQo=",
+      "url": "https://github.com/REDDE4D/TeleVault-releases/releases/download/v1.0.0-beta.2.2/TeleVault_1.0.0-beta.2.2_x64-setup.exe"
     }
   }
 }
