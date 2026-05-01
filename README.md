@@ -41,6 +41,49 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.4.0 (2026-05-01)
+
+## New Features
+
+- Add "Delete on Telegram" button with confirmation dialog to account panel; relabel local delete to "Delete Account (local only)" for clarity
+- Add support for deleting accounts directly on Telegram via MTProto (2FA-protected)
+- Add SRP-6a authentication helper for 2FA-gated RPC calls
+- Add `PasswordRequired` error variant to signal when 2FA password is needed
+- Add DELETED account status throughout the UI (status badge, edit dialog, accounts page filter)
+- Add DELETED account status to the database schema with validation
+- Split session string export into Telethon and Pyrogram formats
+- Implement real Telethon and Pyrogram session string generation (replacing stub)
+- Add session export module with helpers to extract connection details (datacenter, IP, port, auth key) from stored session bytes
+- Add encoders to serialize session parts into Telethon StringSession and Pyrogram v3 string formats
+
+## Improvements
+
+- Broaden connection retry logic to handle all transient errors (not just proxy-auth failures); add exponential backoff (2s, 4s) and retry on timeouts for both `TelegramManager::connect` and raw client connections
+
+## Bug Fixes
+
+- Fix session string export to decode stored session bytes and extract real connection parameters instead of returning stubs
+- Remove dead DELETED case in UI stat counter
+
+**Full Changelog**: v1.0.0-beta.3.1...v1.0.0-beta.4.0
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.3.1 (2026-03-28)
 
 # Changelog
