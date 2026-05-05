@@ -41,6 +41,42 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.4.1 (2026-05-05)
+
+## New Features
+
+- Add tdata generation from session when no import blob exists, preserving byte-exact round-trips for previously imported accounts
+- Add TdataWriter to generate full Telegram Desktop tdata directory trees, including key_datas, per-account mtp files, maps, and configs from session data
+- Add EncryptedDescriptor primitive for encrypting/decrypting tdata files using AES-IGE with SHA1-derived per-blob keys
+- Add TDF file framing with MD5 trailer support
+- Add Qt QDataStream writer for big-endian numerics and length-prefixed byte arrays
+- Add PBKDF2-HMAC-SHA512 local-key derivation
+- Add AES-IGE-256 encryption (verified against opentele test vectors)
+
+## Internal
+
+- Refactor tdata module into a directory structure with separate reader and writer components
+- Document tdata format constants and file layouts with binary test fixtures for deterministic verification
+
+**Full Changelog**: v1.0.0-beta.4.0...v1.0.0-beta.4.1
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.4.0 (2026-05-01)
 
 ## New Features
@@ -241,44 +277,6 @@ Then open the app normally.
 - Update database models to store PIN configurations
 
 **Full Changelog**: v1.0.0-beta.1.1...v1.0.0-beta.2.0
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-beta.1.1 (2026-03-18)
-
-## New Features
-
-- Add error sanitization to prevent sensitive information leakage in user-facing error messages
-- Add brute force protection to unlock functionality with attempt limits and progressive delays
-
-## Improvements
-
-- Improve security by restricting Content Security Policy for script and object sources
-- Improve biometric cache directory permissions for enhanced security
-- Optimize database performance by implementing message caching limits
-- Update dependencies for better compatibility and security
-
-## Internal
-
-- Remove TDLib integration and all related console commands
-- Remove TDLib references from build configuration
-
-**Full Changelog**: v1.0.0-beta.1...v1.0.0-beta.1.1
 
 ---
 
