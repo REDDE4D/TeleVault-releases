@@ -41,6 +41,60 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.4.4 (2026-05-05)
+
+## Bug Fixes
+
+- Fix encrypted descriptor size calculation to include the 4-byte prefix itself, resolving compatibility issues with TDesktop's TData format
+
+**Full Changelog**: v1.0.0-beta.4.3...v1.0.0-beta.4.4
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
+### v1.0.0-beta.4.3 (2026-05-05)
+
+## Bug Fixes
+
+- Fix tdata export to write directly into the chosen output directory instead of nesting files in an extra `tdata/` subfolder, resolving import failures when uploading to other tools
+
+## Internal
+
+- Revert app URLs back to GitHub while maintaining Codeberg bridge script for users on v1.0.0-beta.4.2
+
+**Full Changelog**: v1.0.0-beta.4.2...v1.0.0-beta.4.3
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.4.2 (2026-05-05)
 
 ## Bug Fixes
@@ -234,113 +288,6 @@ Then open the app normally.
 - Add frontend build process to release workflow
 
 **Full Changelog**: v1.0.0-beta.2.1...v1.0.0-beta.2.2
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-beta.2.1 (2026-03-27)
-
-## New Features
-
-- Add bulk function execution for running operations across multiple selected accounts
-- Add support for executing multiple NordVPN proxies at once with progress indication
-- Add SOCKS5 proxy support, allowing accounts to connect through assigned proxies
-
-## Improvements
-
-- Enhance the provider proxy dialog to display progress when adding multiple proxies
-
-**Full Changelog**: v1.0.0-beta.2.0...v1.0.0-beta.2.1
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-beta.2.0 (2026-03-27)
-
-## New Features
-
-- Add PIN unlock feature with enable, disable, and unlock commands
-- Add session management commands to retrieve and terminate active sessions
-- Improve proxy testing to support authentication
-
-## Improvements
-
-- Enhance app status to include PIN-related states
-- Refactor Telegram operations for better session handling and reporting
-- Integrate PIN functionality with existing biometric unlock logic
-
-## Internal
-
-- Implement PIN validation, hashing, and encryption using PBKDF2
-- Update database models to store PIN configurations
-
-**Full Changelog**: v1.0.0-beta.1.1...v1.0.0-beta.2.0
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-beta.1.1 (2026-03-18)
-
-## New Features
-
-- Add error sanitization to prevent sensitive information leakage in user-facing error messages
-- Add brute force protection to unlock functionality with attempt limits and progressive delays
-
-## Improvements
-
-- Improve security by restricting Content Security Policy for script and object sources
-- Improve biometric cache directory permissions for enhanced security
-- Optimize database performance by implementing message caching limits
-- Update dependencies for better compatibility and security
-
-## Internal
-
-- Remove TDLib integration and all related console commands
-- Remove TDLib references from build configuration
-
-**Full Changelog**: v1.0.0-beta.1...v1.0.0-beta.1.1
 
 ---
 
