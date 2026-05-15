@@ -41,6 +41,50 @@ Then open the app normally.
 
 ## Changelog
 
+### v1.0.0-beta.5.0 (2026-05-15)
+
+## New Features
+
+- Add email management UI: recovery and login email cards now display in the Security tab with setup and removal flows
+- Add EmailSetupDialog for the first step of email configuration, featuring a picker to reuse addresses from other accounts or enter new ones, plus optional 2FA password gating for recovery email
+- Add EmailCodeDialog for the second step of email confirmation, supporting code entry and resend
+- Add LoginEmailCard to manage login email without 2FA dependency (removal intentionally not exposed)
+- Add RecoveryEmailCard to manage recovery email with password-gated removal and status display
+- Register email management backend commands and expose frontend wrappers for recovery and login email flows
+- Add recovery email set/confirm/resend/remove console commands with SRP-based password verification
+- Add login email set/verify/resend console commands; removal intentionally not exposed per design
+- Add email module to read and display email status, including masking for security
+- Add email status types and extend Account model to track recovery and login email addresses
+- Extend database with recovery_email and login_email columns and list_used_emails query to prevent duplicate assignments across accounts
+
+## Improvements
+
+- Update email verification to use the correct EmailVerifyPurpose for each flow: LoginChange for managing login email in authenticated sessions, LoginSetup only for initial phone-login setup
+
+## Bug Fixes
+
+- Fix database field order in TestDb to ensure SQLite connection closes before temp directory removal (Windows compatibility)
+- Remove unused parameter from LoginEmailCard callback to resolve linting warnings
+
+**Full Changelog**: v1.0.0-beta.4.4...v1.0.0-beta.5.0
+
+---
+
+### Install
+
+Download the file for your platform from the assets below.
+
+**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
+
+```bash
+xattr -cr /Applications/TeleVault.app
+```
+
+Then open the app normally.
+
+
+---
+
 ### v1.0.0-beta.4.4 (2026-05-05)
 
 ## Bug Fixes
@@ -263,31 +307,6 @@ Then open the app normally.
 - Fix unused imports in DeveloperTab component
 
 **Full Changelog**: v1.0.0-beta.2.3...v1.0.0-beta.2.4
-
----
-
-### Install
-
-Download the file for your platform from the assets below.
-
-**macOS:** After installing, you may see *"TeleVault is damaged and can't be opened."* This is because the app is not signed with an Apple Developer certificate. To fix it, run:
-
-```bash
-xattr -cr /Applications/TeleVault.app
-```
-
-Then open the app normally.
-
-
----
-
-### v1.0.0-beta.2.2 (2026-03-28)
-
-## New Features
-
-- Add frontend build process to release workflow
-
-**Full Changelog**: v1.0.0-beta.2.1...v1.0.0-beta.2.2
 
 ---
 
